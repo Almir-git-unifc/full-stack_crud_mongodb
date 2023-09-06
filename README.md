@@ -1,6 +1,6 @@
 Principal File
-
 ================================
+
 Cadastro: A basic MERN Stack CRUD Application using mongodb and react VITE
 
 ---------------------------------------------------------------------------------------------------------
@@ -25,6 +25,12 @@ Cadastro: A basic MERN Stack CRUD Application using mongodb and react VITE
 
 
 # Intro <a name = "Intro"></a>
+
+
+STATUS: app under construction
+==============================
+
+
 Definition witho more explications.
 
 Font of project (Github, youtube, etc)
