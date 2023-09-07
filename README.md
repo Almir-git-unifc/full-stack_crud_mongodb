@@ -1,12 +1,12 @@
-Principal File
-================================
+MERN Stack CRUD Application
+===========================
 
 Cadastro: A basic MERN Stack CRUD Application using mongodb and react VITE
 
 ---------------------------------------------------------------------------------------------------------
 
 
-![CRUD People](https://image.png)
+![LINK CRUD Image](https://image.png)
 
 
 --------------------------------------------------------------------------------------
@@ -27,8 +27,12 @@ Cadastro: A basic MERN Stack CRUD Application using mongodb and react VITE
 # Intro <a name = "Intro"></a>
 
 
-STATUS: app under construction
-==============================
+STATUS: 
+<h4 align="center"> 
+	🚧  React VITE 🚀 App under construction ...  🚧
+</h4>
+
+=====================================================
 
 
 Definition witho more explications.
