@@ -16,7 +16,7 @@ const initbco = 'mongodb+srv://admin:';
 const finbco = '@cluster0.epsupyi.mongodb.net/crud?retryWrites=true&w=majority';
 const conectbco = initbco + pass + finbco;
 
-// Aqui podemos por as rotas ou endpoints ou a conexão com MongoDB
+// Aqui podemos por a conexão com MongoDB
 mongoose
 .connect(
         // Abaixo temos a string de conexão com os dados em variáveis
@@ -26,17 +26,20 @@ mongoose
        }
 )
 
-// Aqui vamos colocar as rotas da API
+// Aqui vamos colocar as rotas ou endpoints da API
+app.get('/', (req, res) => {
+   UserModel.find({})
+      .then(users => res.json(users))
+      .catch(err => res.json(err))
+} );
+
 app.post('/createUser', (req, res) => {
     UserModel.create(req.body)
        .then(users => res.json(users))
        .catch(err => res.json(err))
 } );
 
-
-
-// Aqui podemos por as rotas ou endpoints que é a mesma coisa; vide AA PUC 10 A1
-
+// Aqui vem o servidor
 app.listen(port, () => {
    console.log(`Server app is listening at ${port}`)
 });

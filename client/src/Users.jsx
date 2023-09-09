@@ -1,11 +1,16 @@
-import React from 'react';
-import { useState } from 'react';
+import axios from "axios";
+import { useEffect,  useState } from 'react';
 import { Link } from "react-router-dom";
 
 function Users () {
-    const [users, setUsers] = useState([{
-        Name: "Yoseph", Email:"yosep@gmail.com", Age: 20
-     }]);
+    const [users, setUsers] = useState([]);
+
+    useEffect( ( ) => {
+      axios.get("http://localhost:3005" )
+     .then( result => setUsers(result.data) )
+     .catch( err => console.log(err) )
+    }, [ ] );
+
   return (
     <div className='d-flex vh-100 bg-primary justify-content-center align-items-center'>
 
@@ -29,14 +34,14 @@ function Users () {
               return (
                 // eslint-disable-next-line react/jsx-key
                 <tr>
-                  <td>{user.Name}</td>
-                  <td>{user.Email}</td>
-                  <td>{user.Age}</td>                  
+                  <td>{user.name}</td>
+                  <td>{user.email}</td>
+                  <td>{user.age}</td>                  
                   <td>                  
                     <Link to="/update" className="btnEdit btn btn-success" >Update</Link>
                   </td>
                   <td>
-                    <button id='btnDelete'>Delete</button>
+                    <button className="btn btn-danger btnDelete">Delete</button>
                   </td>
                 </tr>
               )

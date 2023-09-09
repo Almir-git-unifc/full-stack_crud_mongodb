@@ -10,7 +10,7 @@ STATUS:
 	🚧  React VITE 🚀 App under construction ...  🚧
 </h4>
 
-                 ====================================
+                      ====================================
 
 ![LINK CRUD Image](https://image.png)
 
