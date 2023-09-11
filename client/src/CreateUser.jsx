@@ -18,7 +18,11 @@ function CreateUser() {
          navigate('/'); /* Agora ao clciar no botão Submit, após gravar os dados no BD, o sistema volta para a tela HomePage */
       })
      .catch( err => console.log(err) )
-  }
+  };
+
+  const handleCancel = () => {
+    navigate("/");
+  };
 
   return (
     <div className='d-flex vh-100 bg-primary justify-content-center align-items-center'>
@@ -44,7 +48,10 @@ function CreateUser() {
                     onChange={(e) => setAge(e.target.value)}
                  />
               </div>
-              <button className='btnSubm btn btn-success'>Submit</button>	  
+              <div className="flexContainer">
+                  <button className='btnSubm btn btn-success' id="btnRecor">Submit</button>	
+                  <button onClick={handleCancel} className="btn btn-success" id="btnCancelAdd" >Cancel</button>
+              </div>  
           </form>
         </div>		
     </div>

@@ -10,7 +10,7 @@ STATUS:
 	🚧  React VITE 🚀 App under construction ...  🚧
 </h4>
 
-                      ====================================
+                      ==========================================
 
 ![LINK CRUD Image](https://image.png)
 
@@ -33,38 +33,43 @@ STATUS:
 # Intro <a name = "Intro"></a>
 
 
-Definition with more explications.
-
-Font of project (Github, youtube, etc)
-
-My add in project: This project was developed previously for persona XXXXX, found on youtube with the title """XXXXXXXXXXXX"""
-
+This project was developed previously for 'Code With Yousaf', found on youtube with the title """MERN Stack CRUD Operations | Full Stack CRUD Operations | React, Node, Express & MongoDB"""
+In youtube's video this project was developed with MongoDB Comunnity local, however, in my devepoment 
+-used MongoDB Atlas
+-implemented confirmation feature on the Delete button 
+-added clearly demarcated Exits cancel buttons, on the 'Add User' and 'Update User' screens, to return to the homepage
 
 
 # Feature <a name = "Feature"></a>
-- XXXXXXXXX
-- XXXXXXXXXXXX
+- CRUD
+- persistence in MongoDB
 
 
 
 &nbsp;
 # Technologies <a name = "Technologies"></a>
-In youtube's video this project was developed with javascript language using technology: React_JS
-
-However, in my devepoment used: Msg-linter and comitzen for semantic version and Convencional Commits; beyond the VS_Code with snippets, AND ...................
+In youtube's video this project was developed with MongoDB Comunnity local, however, in my devepoment 
+-used React, Express, Node.js, MongoDB,Bootstrap, 
 
 ### Built With 
 Icons of technologies ............... ->
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![json](https://img.shields.io/badge/json-Code?style=for-the-badge&logo=json&logoColor=black&color=blue)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![react-hook](https://img.shields.io/badge/hooks-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
  
 &nbsp;
+
+## Requisit
+#### You need a account in MongoDB Atlas
+#### You can Try Free account in this url: https://www.mongodb.com/atlas/database
+#### And you need Create a Database named crud and a Collection named users
+
+
 # How-To-Use <a name = "How-To-Use"></a>
 
 To clone and run this application, you'll need Git, Node.js v16.15 or higher + npm (used version 8.19.2) installed on your computer from your command line:
@@ -72,40 +77,12 @@ To clone and run this application, you'll need Git, Node.js v16.15 or higher + n
 ```
 &nbsp;
 ## Clone this repository
-### $ `git clone https://github.com/Almir-git-unifc/xxxxxxxxxxxxxxxxxx.git`
+### $ `git clone https://github.com/Almir-git-unifc/mern_crud-app_vite_peoples_mongo.git`
 
-
-&nbsp;
-## Go to repository
-### $ `cd xxxxxxxxxxxxxxx-main`
-
-
-
-
-&nbsp;
-## Install dependencies
-### $ `npm install`
-
-
-&nbsp;
-## Run locally the app
-### $ `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-```
-
-
-
-OR
 
 &nbsp;
 ## Install project vite
 ### $ `npm create vite@latest`
-
 
 &nbsp;
 ## choose name project, framework and variant
@@ -116,18 +93,27 @@ OR
 ### $ `Copy content project, was download of this Github repository, inside folder vite-project created before`
 
 
+#### And you will need to update the index.js file in the server folder with the data from your connectionString in yourConnectionString variabel and tpour password in yourPassw variable.
+
 &nbsp;
 ## Run locally the app
 ### $ `cd folder-name-project (vite-project)`
 ### $ `npm install`
+
+## Access client folder 
+### $ `cd client`
+
+## install vite in client folder
 ### $ `npm run dev`
 #### $ `use the Local link provided by VITE to access the server`
 
+## open server folder
+### $ `cd server`
 
+## run the server
+### $ `npm start`
 
-&nbsp;
-## Want to see the app working
-- Then see the app running on [this website](https://almir-git-unifc.github.io/xxxxxxxx/)
+#### Verify id Users.jsx file contain a correct port in useEffect, in line: axios.get( ), in CreateUser.jsx file in line axios.post
 
 
 &nbsp;
@@ -151,4 +137,6 @@ Instrucoes para readme.md
 https://blog.rocketseat.com.br/como-fazer-um-bom-readme/
 
 Use estas badges:  https://ileriayo.github.io/markdown-badges/
+
+https://dev.to/envoy_/150-badges-for-github-pnk#database
 ->
