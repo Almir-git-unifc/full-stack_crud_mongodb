@@ -25,9 +25,12 @@ mongoose
                  useNewUrlParser: true,
        }
 )
+.then((res) => console.log(`Connection Success in DB Cloud ${res}`))
+.catch((err) => console.log(`Error in connection with DataBase MongoDB ${err}`));
+
+
 
 // Aqui vamos colocar as rotas ou endpoints da API
-
 app.get('/', (req, res) => {
    UserModel.find({})
       .then(users => res.json(users))
