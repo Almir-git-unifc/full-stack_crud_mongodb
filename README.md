@@ -1,18 +1,19 @@
-MERN Stack CRUD Application
-===========================
+<h1>MERN Stack CRUD Application</h1>
 
-Cadastro: A basic MERN Stack CRUD Application using mongodb and react VITE
+Cadastro: A basic MERN CRUD Full Stack Application using MongoDB and VITE
 
 ---------------------------------------------------------------------------------------------------------
 
 STATUS: 
-<h4 align="center"> 
-	🚧  React VITE 🚀 App under construction ...  🚧
-</h4>
+<h3 align="center">  
+	 STATUS: 🔔  React VITE 🚀  App:   Finished ...  🎯 
+</h3>
 
                       ==========================================
 
-![LINK CRUD Image](https://image.png)
+![Screen1&2](https://github.com/Almir-git-unifc/mern_crud-app_vite_peoples_mongo/blob/main/scr12.png)
+
+![Screen3&4](https://github.com/Almir-git-unifc/mern_crud-app_vite_peoples_mongo/blob/main/scr34.png)
 
 
 --------------------------------------------------------------------------------------
@@ -33,11 +34,13 @@ STATUS:
 # Intro <a name = "Intro"></a>
 
 
-This project was developed previously for 'Code With Yousaf', found on youtube with the title """MERN Stack CRUD Operations | Full Stack CRUD Operations | React, Node, Express & MongoDB"""
-In youtube's video this project was developed with MongoDB Comunnity local, however, in my devepoment 
--used MongoDB Atlas
--implemented confirmation feature on the Delete button 
--added clearly demarcated Exits cancel buttons, on the 'Add User' and 'Update User' screens, to return to the homepage
+This project was developed:
+- used MongoDB Atlas
+- implemented confirmation feature on the Delete button 
+- added clearly demarcated Exits cancel buttons, on the 'Add User' and 'Update User' screens, to return to the homepage.
+
+These were the differences, in relation to the original project, previously developed with MongoDB Compass Community by 'Code With Yousaf', found on Youtube with the title """MERN Stack CRUD Operations | Full Stack CRUD Operations | React, Node, Express & MongoDB"""
+
 
 
 # Feature <a name = "Feature"></a>
@@ -52,19 +55,18 @@ In youtube's video this project was developed with MongoDB Comunnity local, howe
 -used React, Express, Node.js, MongoDB,Bootstrap, 
 
 ### Built With 
-Icons of technologies ............... ->
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![react-hook](https://img.shields.io/badge/hooks-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
  
 &nbsp;
 
-## Requisit
+## Requirements
 #### You need a account in MongoDB Atlas
 #### You can Try Free account in this url: https://www.mongodb.com/atlas/database
 #### And you need Create a Database named crud and a Collection named users
@@ -89,9 +91,12 @@ To clone and run this application, you'll need Git, Node.js v16.15 or higher + n
 ### $ `choose  (your project named)   vite-project `
 ### $ `(framework)       React`
 ### $ `(variant)         JavaScript`
+```
 
 ### $ `Copy content project, was download of this Github repository, inside folder vite-project created before`
 
+### $ `install the dependencies of this front-end`
+npm install bootstrap axios react-router-dom
 
 #### And you will need to update the index.js file in the server folder with the data from your connectionString in yourConnectionString variabel and tpour password in yourPassw variable.
 
@@ -110,10 +115,50 @@ To clone and run this application, you'll need Git, Node.js v16.15 or higher + n
 ## open server folder
 ### $ `cd server`
 
+### $ `install the dependencies of this server`
+npm install express   mongoose    cors    nodemon body-parser
+
+
+update the main and script items of the package.json file in the server folder; this way:
+  "main": "index.js",
+  "scripts": {
+	"start": "nodemon index.js",
+	"test": "echo \"Error: no specified\" && exit 1",
+  },
+
+
+
+
+## MongoDB Account: 
+### If you don't already have a MongoDB Atlas account
+ #### 1) Create an account on MongoDB Atlas, at:
+ ##### https://account.mongodb.com/account/login
+
+ #### Or access MongoDB Atlas with your Github or Google account
+
+ #### 2) In MongoDB Atlas, create a DataBase with the desired name, and within it create a Collection with the name CRUD, or whatever name you prefer
+
+
+
+### Once you have a MongoDB Atlas account; access the index.js file from the server folder, and...
+ #### 3.1) replace the term your-password in the variable yourPassw, with your MongoDB Atlas password
+ #### 3.2) and replace the @cluster...majority term in yourConnectionString variable with your MongoDB Atlas connection string
+
+### save these changes
+
+
+
 ## run the server
 ### $ `npm start`
 
+
 #### Verify id Users.jsx file contain a correct port in useEffect, in line: axios.get( ), in CreateUser.jsx file in line axios.post
+
+
+<h5>
+ Enjoyed and if this is useful to you, give me a star 🌟
+</h5>
+
 
 
 &nbsp;
@@ -123,20 +168,3 @@ To clone and run this application, you'll need Git, Node.js v16.15 or higher + n
 
 - Github: [@Almir-git-hub](https://github.com/Almir-git-unifc)
 
-
-&nbsp;
-# License <a name = "License"></a>
-
-MIT
-
-
-
-<!-- 
-Instrucoes para readme.md
-
-https://blog.rocketseat.com.br/como-fazer-um-bom-readme/
-
-Use estas badges:  https://ileriayo.github.io/markdown-badges/
-
-https://dev.to/envoy_/150-badges-for-github-pnk#database
-->
