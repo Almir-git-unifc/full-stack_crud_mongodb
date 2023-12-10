@@ -11,9 +11,9 @@ STATUS:
 
                       ==========================================
 
-![Screen1&2](https://github.com/Almir-git-unifc/mern_crud-app_vite_peoples_mongo/blob/main/scr12.png)
+![Screen1&2](https://github.com/Almir-git-unifc/mern_crud-app_vite_peoples_mongo/blob/master/scr12.png)
 
-![Screen3&4](https://github.com/Almir-git-unifc/mern_crud-app_vite_peoples_mongo/blob/main/scr34.png)
+![Screen3&4](https://github.com/Almir-git-unifc/mern_crud-app_vite_peoples_mongo/blob/master/scr34.png)
 
 
 --------------------------------------------------------------------------------------
