@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Adaptation: Config User
 const initbco = 'mongodb+srv://admin:';
-const yourPassw = "Zbdac3r-1ex_zyk";
+const yourPassw = "your-password";
 const yourConnectionString = '@cluster0.epsupyi.mongodb.net/crud?retryWrites=true&w=majority';
 const conectbco = initbco + yourPassw + yourConnectionString;
 
