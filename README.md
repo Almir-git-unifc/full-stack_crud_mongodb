@@ -21,12 +21,11 @@ STATUS:
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
-- [Intro](#Intro)
-- [Feature](#Feature)
-- [Technologies](#Technologies)
-- [How To Use](#How-To-Use)
-- [Author](#Author)
-- [License](#License)
+- [Intro ](#intro-)
+- [Feature ](#feature-)
+- [Technologies](#Technologies-)
+- [How To Use](#how-to-use-)
+- [Author](#author-)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -43,6 +42,7 @@ These were the differences, in relation to the original project, previously deve
 
 
 
+&nbsp;
 # Feature <a name = "Feature"></a>
 - CRUD
 - persistence in MongoDB
