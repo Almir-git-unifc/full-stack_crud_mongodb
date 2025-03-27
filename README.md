@@ -34,6 +34,7 @@ STATUS:
 
 
 This project was developed:
+- With Client-Server Architecture implemented using the MVC pattern
 - used MongoDB Atlas
 - implemented confirmation feature on the Delete button 
 - added clearly demarcated Exits cancel buttons, on the 'Add User' and 'Update User' screens, to return to the homepage.
@@ -44,15 +45,27 @@ These were the differences, in relation to the original project, previously deve
 
 &nbsp;
 # Feature <a name = "Feature"></a>
-- CRUD
-- persistence in MongoDB
+- CRUD (POST GET PUT & DELETE);
+- Responsive interface with the Bootstrap front-end framework;
+- Navigation between pages using React Router;
+- RESTful API in the backend to perform CRUD operations on user data;
+- Validation: to delete a user, confirmation is requested before actually deleting the user;
+- Validation: email, declared with type in html5 input field.
 
 
 
 &nbsp;
 # Technologies <a name = "Technologies"></a>
-In youtube's video this project was developed with MongoDB Comunnity local, however, in my devepoment 
--used React, Express, Node.js, MongoDB,Bootstrap, 
+This project was developed using the following technologies:
+- JavaScript Full Stack;
+- Node.js;
+- React for building the GUI;
+- Vite.js as a development server;
+- Express.js Framework used to build API;
+- MongoDB DBaaS (DataBase as a Service);
+- Mongoose used to model data for MongoDB;
+- React Router library for navigation between pages;
+- Axios library used for requests and communication with the API.
 
 ### Built With 
 
