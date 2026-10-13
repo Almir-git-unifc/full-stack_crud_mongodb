@@ -1,6 +1,6 @@
 <h1>MERN Stack CRUD Application</h1>
 
-Cadastro: A basic MERN CRUD Full Stack Application using VITE and external MongoDB
+Cadastro: A basic MERN CRUD App (Client-Server) using MVC, VITE, React, MongoDB, Node, and REST API
 
 ---------------------------------------------------------------------------------------------------------
 
